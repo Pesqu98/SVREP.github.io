@@ -1,7 +1,8 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'cooper black', sans-serif;
 }
+
 p {
   font-family: 'Poppins', sans-serif;
 }
@@ -29,7 +30,7 @@ p {
 /* Navigation links */
  a {
   color: black !important;
-  font-family: poppins !important;
+  font-family: 'cooper black' !important;
 }
 .navCTA {
   font-size: 15px;
@@ -37,6 +38,11 @@ p {
 
 .navlogo{
     max-width: 20%;
+}
+
+.customdrop {
+  color: black !important;
+  font-family: 'poppins' !important;
 }
 
 .button-donate{
@@ -56,10 +62,85 @@ p {
     border-radius: 40%;
   }
 
-/* General */
 
-/* Jumbotron  */
-.jumbotron {
+
+/* Carousel */
+
+.custom-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#F4D9AC, white);
+
+}
+
+.carousel-copy{
+  width: 70%;
+  min-width: 500px;
+  max-width: 1500px;
+}
+
+
+/*, .carousel-indicators */
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+/* Events Header */
+.events-banner{
+  border-color: #994226 !important;
+  border-width: 13px;
+  max-width: 100 px;
+}
+
+.events-title{
+color: white;
+background-color: #C75219;
+font-size: 5vmin;
+text-align: center;
+}
+
+/* Events body */
+
+.events-body{
+  text-align: center;
+  font-size: 2vmin;
+}
+
+
+
+/* Jumbotron Events */
+.jumbotron eventsjumbo {
+  background-image: url(images/eventsbackground.png);
+  max-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customcard{
+  background-color:#9DA471;
+  padding: 1.5vh;
+  border-radius: 30px;
+}
+
+.customlist{
+  background-color:#747A4E;
+  padding: 12px;
+  color:white;
+  font-family: poppins;
+  font-size: 2vmin;
+  border-radius: 40px;
+  margin-top: .5em;
+}
+
+.list-group-item {
+  padding: 10px;
+}
+
+/* Jumbotron Registered to Vote */
+/* .jumbotron {
   background-image: url(../images/rockOn_dark.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,58 +148,63 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* Jumbotron copy */
-.jumboCopy {
+/* .jumboCopy {
   width: 70%;
   min-width: 500px;
   max-width: 700px;
   color: white;
   text-align: center;
-}
+} */
 
-/* Cards */
-.content {
-  padding: 50px;
-}
-.sectionHeading {
-  text-align: center;
-}
-.showsNear  {
-  padding: 0px 30px 30px 30px;
-}
-.cardContainer {
-  text-align: center;
-}
-
-/* Content */
-.sideAccent {
-  background: #007bff;
-  width: 15px;
-}
-.imageContainer img {
-  width: 100%;
-}
-.imageContainer {
-  padding: 50px;
-}
-.valueProp {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-/* Footer */
-.emailContain {
-  background: url(../images/emailBG.jpg);
-  background-size: cover;
+.jumbotron registerjumbo {
+  background-image: url(images/eventsbackground.png);
+  max-height: 30vh;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 500px;
+  text-align: center;
 }
+
+.textvote{
+  text-align: center;
+}
+
+.display-4{
+  font-size: 5vmin;
+}
+
+.lead{
+  font-size: 2vmin;
+}
+
+/* Events Header */
+.partnerships-banner{
+  border-color: #E49C2E !important;
+  border-width: 13px;
+  max-width: 100 px;
+}
+
+.partnerships-title{
+color: black;
+background-color: #FFC52E;
+font-size: 5vmin;
+text-align: center;
+}
+
+
+.card{
+  border: none;
+  align-items: center;
+}
+
+.card-img-top{
+  width: 70%;
+  max-width: 200px;
+}
+
 
 /* Footer form */
 form {

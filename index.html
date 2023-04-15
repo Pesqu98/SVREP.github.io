@@ -32,10 +32,11 @@
                     About Us
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                      <a class="dropdown-item" href="#">About Us</a>
-                      <a class="dropdown-item" href="#">Staff</a>
-                      <a class="dropdown-item" href="#">Partnerships</a>
-                      <a class="dropdown-item" href="#">Shop</a>
+                      <div class="dropdown-item bp1-animate-enter"></div>
+                      <a class="dropdown-item customdrop" href="#">About Us</a>
+                      <a class="dropdown-item customdrop" href="#">Staff</a>
+                      <a class="dropdown-item customdrop" href="#">Partnerships</a>
+                      <a class="dropdown-item customdrop" href="#">Shop</a>
                     </div>
                   </li>
               <li class="nav-item dropdown">
@@ -43,11 +44,11 @@
                 Events
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                  <a class="dropdown-item" href="#">WCV Dinner</a>
-                  <a class="dropdown-item" href="#">Sabor Dinner</a>
-                  <a class="dropdown-item" href="#">Latino Congresso</a>
-                  <a class="dropdown-item" href="#">Virtual Gala</a>
-                  <a class="dropdown-item" href="#">Car Raffle</a>
+                  <a class="dropdown-item customdrop" href="#">WCV Dinner</a>
+                  <a class="dropdown-item customdrop" href="#">Sabor Dinner</a>
+                  <a class="dropdown-item customdrop" href="#">Latino Congresso</a>
+                  <a class="dropdown-item customdrop" href="#">Virtual Gala</a>
+                  <a class="dropdown-item customdrop" href="#">Car Raffle</a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -55,9 +56,9 @@
                 Get Involved
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                  <a class="dropdown-item" href="#">Volunteer</a>
-                  <a class="dropdown-item" href="#">Latino Academy</a>
-                  <a class="dropdown-item" href="#">Restore Voting Rights <br>Act (VRA)</a>
+                  <a class="dropdown-item customdrop" href="#">Volunteer</a>
+                  <a class="dropdown-item customdrop" href="#">Latino Academy</a>
+                  <a class="dropdown-item customdrop" href="#">Restore Voting Rights Act (VRA)</a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -65,36 +66,40 @@
                 Resources
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                  <a class="dropdown-item" href="#">Privacy Policy</a>
-                  <a class="dropdown-item" href="#">Voter Supression</a>
-                  <a class="dropdown-item" href="#">Support Mail Campaign</a>
-                  <a class="dropdown-item" href="#">Baldo</a>
+                  <a class="dropdown-item customdrop" href="#">Privacy Policy</a>
+                  <a class="dropdown-item customdrop" href="#">Voter Supression</a>
+                  <a class="dropdown-item customdrop" href="#">Support Mail Campaign</a>
+                  <a class="dropdown-item customdrop" href="#">Baldo</a>
                 </div>
               </li>
+
+              <li class="nav-item dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/languageicon.png" class="languageicon">
+              </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">Espanol</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+              <div>
+              <button type="button" class="btn btn-primary btn-lg">Large button</button>
+              </div>
+              </li>
             </ul>
-          </div>
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="images/languageicon.png" class="languageicon">
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">English</a>
-              <a class="dropdown-item" href="#">Espanol</a>
-            </div>
-          </div>
-          </div>
         </div>
       </nav>
     <!-- End navigation bar -->
      
     <!-- Carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner carousel-copy">
           <div class="carousel-item active">
             <img class="d-block w-100" src="images/Group 59.png" alt="First slide">
           </div>
@@ -116,20 +121,50 @@
       </div>
     <!-- End Carousel -->
 
-    <!-- Cards -->
-    <div class="container-fluid content">
-      <h2 class="sectionHeading">Shows Near You</h2>
+
+    <!-- Events -->
+    <hr class="events-banner">
+    <h2 class="events-title">Events</h2>
+    <br>
+    <p class="events-body">Learn more about our upcoming events below!</p>
+
+    <div class="jumbotron eventsjumbo">
+      <div class="container">
+        <div class="card customcard" style="max-width: 50rem;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item customlist">Latino Academy  Candidate Campaign<br>Training - April 22, 2023</li>
+            <li class="list-group-item customlist">Sabor De Las Americas Dinner<br>LA River Center and Garden -  May 25, 2023</li>
+            <li class="list-group-item customlist">Willie C. Velasquez Dinner - August 25, 2023</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Jumbotron Registered to Vote -->
+    <div class="jumbotron registerjumbo">
+      <div class="container">
+        <div class="textvote">
+        <h1 class="display-4">Are you registered to vote?</h1>
+        <p class="lead">To verify that you are registered to vote in the upcoming election  down below.</p>
+        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      </div>
+    </div>
+    </div>
+
+ <!-- Partnerships -->
+ <hr class="partnerships-banner">
+ <h2 class="partnerships-title">Our Partnerships</h2>
+ <br>
+
+     <!-- Cards -->
+     <div class="container-fluid content">
       <div class="row showsNear">
 
         <!-- Card 1 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/show1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Melbourne, Australia</h5>
-              <p class="card-text">Come see Slipknot unlease their new album "We Are Not Your Kind"</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+            <img src="images/Group 69.png" class="card-img-top" alt="...">
           </div>
         </div>
         <!-- End card 1 -->
@@ -137,12 +172,7 @@
         <!-- Card 2 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/show2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Chicago, Illinois</h5>
-              <p class="card-text">Metallica finally returns to the big stage in Chicago Illinois</p>
-              <a href="#" class="btn btn-primary">Buy Tickets</a>
-            </div>
+            <img src="images/Group 70.png" class="card-img-top" alt="...">
           </div>
         </div>
         <!-- End card 2 -->
@@ -150,12 +180,7 @@
         <!-- Card 3 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/show3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Long Beach, California</h5>
-              <p class="card-text">The Red Hot Chili Peppers take the stage at the Honda Center</p>
-              <a href="#" class="btn btn-primary">Buy Tickets</a>
-            </div>
+            <img src="images/Group 71.png" class="card-img-top" alt="...">
           </div>
         </div>
         <!-- End card 3 -->
@@ -163,76 +188,109 @@
     </div>
     <!-- End cards -->
 
-    <!-- Content -->
-    <div class="container-fluid content">
-      <h2 class="sectionHeading">Why we're better</h2>
-
-      <!-- Row 1 -->
-      <div class="row valueProp">
-        <div class="sideAccent">
-        </div>
-        <div class="imageContainer col-3">
-          <img src="images/assistance.png">
-        </div>
-        <div class="text col-8">
-          <h3>We are always here to help!</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Contact Us
-          </a>
-        </div>
-      </div>
-      <!-- End row 1 -->
-
-      <!-- Row 2 -->
-      <div class="row valueProp">
-        <div class="sideAccent">
-        </div>
-        <div class="imageContainer col-3">
-          <img src="images/refund.png">
-        </div>
-        <div class="text col-8">
-          <h3>The best prices!</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-      </div>
-      <!-- End row 2 -->
-
-      <!-- Row 3 -->
-      <div class="row valueProp">
-        <div class="sideAccent">
-        </div>
-        <div class="imageContainer col-3">
-          <img src="images/mail-box.png">
-        </div>
-        <div class="text col-8">
-          <h3>The best shows!</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">More shows</a>
-        </div>
-      </div>
-      <!-- End row 3 -->
-
-    </div>
-    <!-- End content -->
+ 
+  
 
     <!-- Footer -->
-    <footer class="emailContain">
-      <form>
-        <h3 class="sectionHeading">Join Our Mailing List</h3>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Enter email">
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">SVREP</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-dark">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">About Us</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-dark">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Events</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-dark">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Get Involved</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-dark">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
         </div>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
-      </form>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
     </footer>
     <!-- End footer -->
 
