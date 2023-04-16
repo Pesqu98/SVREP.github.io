@@ -60,6 +60,11 @@ p, h5 {
   max-height: 55px;
 }
 
+.checkbuttonicon{
+  max-width: 150px;
+  max-height: 55px;
+}
+
 
 /* Carousel */
 
@@ -230,6 +235,12 @@ text-align: center;
   border-color: white !important;
   border-width: 6px;
   margin:0px;
+}
+
+.footersocials{
+  max-width: 45 px;
+  max-height: 35px;
+  padding-bottom: 10px;
 }
 
 .footers{
@@ -439,6 +450,7 @@ object-fit: contain;
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height: 25vh;
 }
 
 .eventsjumbo img{
@@ -448,5 +460,28 @@ object-fit: contain;
 
 .modal-body{
   font-size: 16px;
+}
+
+.lead{
+  font-size: 16px;
+}
+
+.checkbuttonicon{
+  max-width: 130px;
+  max-height: 85px;
+}
+
+.customlist{
+  font-size: 16px;
+}
+
+.footersocials{
+  max-width: 45 px;
+  max-height: 65px;
+  padding-bottom: 20px;
+}
+
+h2 events-title{
+  font-size: 20px;
 }
 }
