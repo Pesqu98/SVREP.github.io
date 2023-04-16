@@ -359,6 +359,24 @@ font-weight: bold}
   background-color: #747A4E !important;
 }
 
+/* Modal */
+
+.modal-title{
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.modal-body{
+align-content: center;
+text-align: center;
+}
+
+.modal-footer{
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media (max-width: 992px) {
 
@@ -426,4 +444,6 @@ object-fit: contain;
   max-height: 30vh;
   background-size: contain;
 }
+
+
 }
