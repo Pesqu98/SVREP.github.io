@@ -361,10 +361,10 @@ font-weight: bold}
 
 /* Modal */
 
-.modal-title{
-  align-items: left;
-  justify-content: left;
-  text-align: left;
+.modal-header{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .modal-body{
@@ -432,8 +432,9 @@ max-height: 50vh;
 object-fit: contain;
 }
 
+
 .eventsjumbo{
-  background-image: url(../images/eventsbackgroundphone.png);
+  background-image: none;
   background-size: contain;
   display: flex;
   align-items: center;
@@ -445,11 +446,7 @@ object-fit: contain;
   background-size: contain;
 }
 
-#myModal{
-  display: none !important;
-}
-
-.modal-backdrop{
-  display: none !important;
+.modal-body{
+  font-size: 16px;
 }
 }
