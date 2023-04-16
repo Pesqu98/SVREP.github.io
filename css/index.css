@@ -445,5 +445,11 @@ object-fit: contain;
   background-size: contain;
 }
 
+#myModal{
+  display: none !important;
+}
 
+.modal-backdrop{
+  display: none !important;
+}
 }
