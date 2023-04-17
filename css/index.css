@@ -17,8 +17,9 @@ p, h5 {
   .show.dropdown .dropdown-toggle::after {
     transform: translateY(3px);
   }
-.dropdown{
-  margin-top: 15px;
+
+.dropdown::marker{
+  display: none;
 }
  .btn-secondary  {
     background-color: transparent !important;
@@ -27,6 +28,11 @@ p, h5 {
 
 .languageicon{
     max-width: 40%;
+    min-width: 39%;
+}
+
+.languageiconmobile{
+  display:none;
 }
 
 /* Navigation links */
@@ -38,8 +44,16 @@ p, h5 {
   font-size: 15px;
 }
 
+.dropdown{
+  list-style: none;
+  padding-top: 5px;
+}
+
 .navlogo{
-    max-width: 20%;
+    max-width: 15%;
+}
+.navlogomobile{
+  display: none;
 }
 
 .customdrop {
@@ -381,6 +395,7 @@ font-weight: bold}
 .modal-body{
 align-content: center;
 text-align: center;
+justify-content: center;
 }
 
 .modal-footer{
@@ -443,6 +458,11 @@ max-height: 50vh;
 object-fit: contain;
 }
 
+.navlogomobile{
+  max-width: 10%;
+  display: block;
+  align-content: center;
+}
 
 .eventsjumbo{
   background-image: none;
@@ -479,6 +499,29 @@ object-fit: contain;
   max-width: 45 px;
   max-height: 65px;
   padding-bottom: 20px;
+}
+
+.languageiconmobile{
+  max-width: 80%;
+  display: block;
+  align-content: center;
+  padding-top: 15px;
+}
+
+.dropdown{
+  list-style: none;
+  padding-top:15px;
+}
+
+.navbar-brand{
+  display: none;
+}
+.languageicon{
+  display: none;
+}
+
+li::marker{
+  list-style: none;
 }
 
 h2 events-title{
