@@ -54,7 +54,6 @@ p, h5 {
 }
 
 
-
 a:hover{
   color:#992800 !important ;}
 
@@ -475,7 +474,7 @@ object-fit: contain;
 }
 
 .navlogomobile{
-  max-width: 5%;
+  max-width: 45px;
   display: block;
   align-content: center;
 }
@@ -518,7 +517,7 @@ object-fit: contain;
 }
 
 .languageiconmobile{
-  max-width: 5%;
+  max-width: 45px;
   display: block;
   align-content: center;
   padding-top: 0px;
