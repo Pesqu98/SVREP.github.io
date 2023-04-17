@@ -167,6 +167,7 @@ text-align: center;
   background-color:#9DA471;
   padding: 1.5vh;
   border-radius: 30px;
+  white-space: normal;
 }
 
 .customlist{
@@ -507,7 +508,7 @@ object-fit: contain;
 }
 
 .customlist{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .footersocials{
