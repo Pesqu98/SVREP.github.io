@@ -405,20 +405,12 @@ justify-content: center;
 
 
 @media (max-width: 992px) {
-
-  .svreplogo {
-    margin-top: -50px;
-    padding-top: 18px !important;
-  }
     
   .navbar-collapse.collapsing .navbar-nav {
     display: block;
     position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 10;
     transition: all 0.2s ease;
+    background-color: white;
 }
 
 .navbar-collapse.show .navbar-nav {
@@ -428,10 +420,10 @@ justify-content: center;
   top: 0px;
   bottom: 0;
   left:0;
-  right: 10;
-  flex-direction: column;
+  right: 1;
+  margin-right: 20px;
   height: auto;
-  width: 25%;
+  width: 250px;
   transition: left 0.35s ease;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
@@ -511,11 +503,14 @@ object-fit: contain;
 .dropdown{
   list-style: none;
   padding-top:15px;
+  padding-right: 30px;
+  background-color: white;
 }
 
 .navbar-brand{
   display: none;
 }
+
 .languageicon{
   display: none;
 }
@@ -526,5 +521,13 @@ li::marker{
 
 h2 events-title{
   font-size: 20px;
+}
+
+
+.navbar-nav{
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 100px;
+  justify-content: left;
 }
 }
