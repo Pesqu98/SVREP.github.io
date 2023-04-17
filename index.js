@@ -29,5 +29,3 @@ $(window).on("load resize", function() {
 $(document).ready(function(){
   $("#myModal").modal('show');
 });
-
-<><a class="left carousel-control" href="#myCarousel" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">‹</a><a class="right carousel-control" href="#myCarousel" data-slide="next" onclick="$('#myCarousel').carousel('next')">›</a></>
